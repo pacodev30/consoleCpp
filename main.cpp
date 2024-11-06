@@ -1,7 +1,10 @@
 #include <iostream>
+#include "Util.h"
 
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
+    const int result = Util::convertMinutes(2, 4, 30);
+    std::cout << result << " mn" << std::endl;
+
     return 0;
 }
